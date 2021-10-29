@@ -1,0 +1,771 @@
+/*header*/
+header{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin-bottom: 0%;
+  background-color: rgba(4, 75, 171);
+   padding: 0;
+position: static;
+}
+header nav{
+
+    line-height: 100px;
+    float: right;
+    height: 20%;
+    margin-left: 20%;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding:   20px 60px;
+    font-size: 25px;
+    color: white;
+    line-height: normal;
+    -webkit-transition: all 500ms ;
+    -o-transition:all 500ms ;
+    transition:all 500ms ;
+    margin-top: 0%;
+}
+.header{
+    height: 90px;
+}
+.header img{
+    height: 90px;
+    float: left;
+    position: static;
+    width: 15%;
+    
+}
+
+/* fin de header*/
+/*footer*/
+
+footer{
+    background-color: rgba(4, 75, 171);
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-size: 35px;
+    height: 140px; 
+    width:100%;
+    display: inline-block; 
+    margin-bottom: 0%;
+    margin-top: 3%
+}
+
+.direccion{
+    width:45%;
+    margin-left: 1%;
+}
+ .telefono{
+    width: 20%; 
+    margin-left: 6%;
+}
+
+
+.dirección, .telefono, .mail{
+    float: left;
+    padding-top: 30px;
+}
+.mail{
+    width:12%;
+    margin-left:8%;
+    padding-top: 10px;
+}
+.telefono #letra, .mail #letra{
+    text-align: center;
+}
+
+/*fin de footer*/
+
+main{
+    width: 100%;
+    height: 100%;
+}
+
+p, h1, h2, nav a, footer{
+    font-family: 'Quicksand', sans-serif;
+}
+/*inicio: tiene 5 partes:
+-banner
+-redes sociales
+-div 1
+-div2
+-contacto
+*/
+
+
+
+/* inicio 
+redes sociales*/
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.social{
+position: fixed;
+left: 0;
+top: 200px;
+z-index: 2000;
+}
+.social ul{
+    list-style: none;
+}
+
+.social ul li a{
+    display:inline-block;
+    color: #fff;
+    background:#000;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 50%;
+    -webkit-transition: all 500ms ;
+-o-transition:all 500ms ;
+transition:all 500ms ;
+}
+
+.social ul li .icon-facebook{background: #3b5998;}
+.social ul li .icon-instagram{background:#bc2a8d;}
+.social ul li .icon-whatsapp{background: #4FCE5D;}
+.social ul li .icon-envelop{background: #666666;}
+
+
+
+.social ul li a:hover{
+
+  cursor:pointer;
+  transform:translateY(-6px) ;
+}
+/*fin de redes sociales*/
+/*inicio banner*/
+video{
+    object-fit: contain;
+    width: 100%;
+    padding-top: 0%;
+    height:758px;
+    position: relative;
+    margin-top: 0%;
+height: auto;
+margin-bottom: -10%;
+    /*h758*/
+}
+/*inicio 
+fondo1*/
+#fondo1{
+    position: relative;
+    background-color:rgba(155, 158, 168);
+   height: 450px;
+    
+}
+#fondo1 h2{
+    text-align: center; 
+     font-size:35px;
+     margin-top: 15px;
+     margin-bottom: -30px;
+}
+
+#fondo1 p{
+    line-height:150%;
+    text-align:center;
+    margin-left:10%;
+    margin-top: 70px;
+    margin-right:15%;
+    /*margin-bottom:40px;*/ 
+    font-size: 25px;
+}
+
+/* fin de fondo1*/
+/*inicio fondo2 */
+#fondo2{
+    background-color:white; 
+    float:right;
+    width: 100%;
+}
+.encontrar, .compra, .asesoria{
+    width: 26.5%;
+    float: left;
+    justify-content: center;
+    text-align: center;
+    margin-left: 5.5%;
+}
+.encontrar{
+    margin-left: 8%;
+}
+#tit{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.encontrar img, .compra img, .asesoria img{
+margin-top: 50px;
+}
+.encontrar p, .compra p, .asesoria p{
+    margin-bottom: 100px;
+    font-size: 23px;
+    }
+    #columnas{
+        width: 150px;
+        height: 150px;
+    }
+
+/*fin de fondo2*/
+/*inicio contacto*/
+#contacto{
+    background-color:rgba(155, 158, 168);
+    margin-bottom: 0%;
+    padding-top: 980px;
+padding-bottom: 3%;
+margin-bottom: -3%;
+}
+
+#contacto input[type=text], #contacto input[type=email]{
+    width: 60%;
+    height: 40px;
+    margin: 0 auto;
+    }
+    #contacto textarea{
+        width: 60%;
+        height: 200px;
+    margin: 0 auto;
+    }
+    #contacto{
+       text-align: center;
+    }
+    
+    h1{
+        text-align: center;
+    }
+    #centrar{
+      text-align: left;
+      margin-left: 20%;
+   font-size:15px;
+    }
+    #contacto h1{
+margin-top: -10%;
+    }
+
+
+    /*fin de contacto */
+    /*fin de inicio*/
+
+
+
+#imagennosotros{
+    background-image: url(../imagenes/nosotros.jpg); 
+    width:100%; 
+    height: 100%; 
+    overflow: hidden; 
+    margin-right:0%; 
+    background-size:cover; 
+}
+#imagennosotros h2{
+    text-align:center; 
+    font-size:40px; 
+    margin-top:10%;
+     margin-bottom:10%;
+}
+#historia{
+    margin-top: 7%; 
+    margin-left:6%; 
+    margin-right:2%; 
+    
+}
+
+#historia p{
+    font-size: 23px;
+}
+/*inicio alquiler*/
+#alquiler, #venta{
+    text-align: center; 
+    margin-top:6%; 
+    margin-bottom: 3%;
+     font-size: 45px;
+}
+
+.row a{
+    text-decoration:none; 
+    color: black;
+}
+
+.col{
+    display: inline-block; 
+    margin-right:-4.5%;
+    margin-left:5.4% ;
+    width: 30%; 
+    color:rgb(243, 242, 242);
+}
+
+.card{
+    border-radius: 4px; 
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px, 2px, rgba(0,0,0,0.24);
+}
+
+.card img{
+    width: 98%; 
+    height:400px;
+    object-fit:cover;
+}
+.card p{
+    text-align: center; 
+    font-size:22px; 
+    width:100%;
+}
+.modificar{
+    background:rgba(255, 255, 255, 0.329);
+    width:100%;
+    text-align:center;
+}
+.modificar img{
+    width:400px; 
+    height:350px; 
+    object-fit:cover;
+     margin-left:33%;
+}
+.modificar form button{
+    margin-left:37%; 
+    background: whitesmoke; 
+    margin-right:10px;
+}
+.modificar form button a{
+    text-decoration: none; 
+    color:black; 
+    background: whitesmoke;
+}
+
+/* mostrar alquiler y venta*/
+.mostrar{
+    text-align: center;
+}
+.mostrar h1
+{ margin-top: 5%; }
+
+.bajar{
+    margin-top: 4%; 
+    margin-bottom:3%;
+
+}
+
+.modal{
+    display: none;
+}
+.modal:target{
+    display: block;
+    width:100%; 
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+.imagenes a{
+    color: gray;
+font-size: 40px;
+font-weight: 1000;
+text-decoration: none;
+margin: 0 10px;
+border-radius: 25%;
+}
+
+.imagenes{
+
+   
+
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagenes a:nth-child(2){
+    margin: 0;
+    height: 100%;
+    flex-shrink: 2;
+}
+.imagenes img{
+  /*  width: 500px;
+    height: 100%;*/
+    width:600px; 
+    height:550px; 
+    object-fit:cover;
+    max-width: 100%;
+    border: 7px solid #fff;
+    box-sizing: border-box;
+}
+
+
+/* estilo responsive*/
+
+@media screen and (max-width:360px){
+ 
+    nav a{
+        display: inline-block;
+        text-decoration: none;
+        padding:   20.5%  3px;
+        color: white;
+        line-height: normal;
+    }
+   
+   
+
+
+
+#imagennosotros{
+    width:100%; 
+    height: 100%; 
+    overflow: hidden; 
+    margin-right:0%; 
+    background-size:cover; 
+}
+#imagennosotros h2{
+    text-align:center; 
+    margin-top:10%;
+     margin-bottom:10%;
+     color: white;
+}
+#historia{
+    margin-top: 12%; 
+    margin-left:6%; 
+    margin-right:2%; 
+    
+}
+#historia p{
+    width: 89%;
+    margin-right: 0%;
+    margin-left: 10%;
+
+}
+
+
+
+.imagenes a{
+font-size: 30px;
+font-weight: 800;
+text-decoration: none;
+margin: 0 10px;
+border-radius: 25%;
+}
+
+
+.imagenes img{
+    width: 80%;
+    height: 250px;
+}
+
+
+
+
+    }
+
+
+
+/* responsive 411*/
+@media screen and (max-width:411px){
+   
+    h1, h2, #fondo1 h2,  .encontrar h4, .asesoria h4, .compra h4, #alquiler, #venta, #imagennosotros h2, .mostrar h1{
+        font-size: 17px;
+    }
+    p, #fondo1 p, .encontrar p, .asesoria p, .compra p, footer p, nav a, .card p, #historia p, .mostrar p{
+        font-size: 12px;
+    }
+    
+    .header img{
+        width: 27%;
+        height: 100%;
+        object-fit: contain;
+    }
+ 
+        #contacto h1{
+            margin-top: 40%;
+        }
+        .social ul li a{
+            font-size: 15px;
+        }
+      
+     
+        .card img{
+            width: 99%; 
+            height:97px;
+            object-fit:cover;
+        }
+        .card {
+            height: 145px;
+        }
+        #alquiler, #venta{
+            margin-top: 10%;
+        }
+.col{
+    height: 10px;
+    display: inline-block; 
+    margin-right:-4.5%;
+    margin-left:17% ;
+    width: 30%; 
+}
+
+
+
+#imagennosotros{
+    width:100%; 
+    height: 100%; 
+    overflow: hidden; 
+    margin-right:0%; 
+    background-size:cover; 
+}
+#imagennosotros h2{
+    text-align:center; 
+    margin-top:10%;
+     margin-bottom:10%;
+     color: white;
+}
+#historia{
+    margin-top: 12%; 
+    margin-left:6%; 
+    margin-right:2%; 
+    
+}
+#historia p{
+    width: 89%;
+    margin-right: 0%;
+    margin-left: 10%;
+
+}
+
+
+
+
+
+.imagenes a{
+font-size: 30px;
+font-weight: 800;
+text-decoration: none;
+margin: 0 10px;
+border-radius: 25%;
+}
+
+
+.imagenes img{
+    width: 80%;
+    height: 250px;
+}
+
+.mostrar{
+    margin-top: 15%;
+}
+video{
+       
+    margin-top: 0%;
+height: auto;
+margin-bottom: -15%;
+}  
+
+
+    }
+
+
+
+   
+
+    /* responsive fondo2 */
+    
+@media screen and (max-width:540px){
+    .encontrar img, .compra img, .asesoria img{
+        margin-top: 20px;
+        }
+        #fondo2 img{
+            width: 70px;
+            object-fit: contain;
+        }
+        #fondo2{
+            margin-top: -1%;
+        }
+        .encontrar, .compra, .asesoria{
+            float: none;
+            width: 80%;
+          margin-left: 15%;
+            text-align: center;
+        }
+        .encontrar p, .asesoria p{
+            margin-bottom: 4px;
+        }
+        .compra p{
+            margin-bottom: 20%;
+        }
+}
+
+
+/*responsive fondo1*/
+@media screen and (max-width:768px){
+
+    #fondo1{
+        position: relative;
+        width: 100%;
+    }
+    #fondo1 p{
+        line-height:150%;
+        text-align:center;
+        margin-left:13%;
+        margin-top: 6%;
+        margin-right:6%;
+        margin-bottom:0%; 
+text-align: center;
+    }
+    #fondo1 h2{
+       margin-top: -2%;
+       text-align: center;
+       margin-left: 2%;
+    }
+}
+
+/*responsive header y footer*/
+
+@media screen and (max-width:1024px){
+
+    header, footer{
+        width: 100%;
+       
+    }
+    footer{
+        height: 30%;
+    }
+   
+    header nav{
+
+        line-height: 7px;
+        float: right;
+        height: 20%;
+    }
+    
+   
+    nav a{
+        display: inline-block;
+        text-decoration: none;
+        padding:   10%  6.5px;
+        color: white;
+        line-height: normal;
+    }
+   
+    .header img{
+        width: 27%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    header{
+        margin-bottom: 0%;
+        height: 100px;
+
+    }
+    .header{
+        height: 90px;
+    }
+    .dirección{
+        width: 30%;
+        margin-left: 1%;
+    }
+    .telefono{
+        width: 28%; 
+        margin-left: 3%;
+    }
+
+    .mail{
+        width:28%;
+        margin-left:3%;
+        margin-right: 1%;
+        padding-top: 10px;
+    }
+}
+
+/*responsive de footer*/
+@media screen and (max-width:1280px) and (min-width:1025px){
+
+    .dirección{
+        width: 36%;
+        margin-left: 1%;
+    }
+
+    .card img{
+        width: 550px; 
+        height:500px;
+        object-fit:cover;
+    }
+    .card {
+        height: 650px;
+    }
+  
+.col{
+height: 10px;
+display: inline-block; 
+margin-right:-3%;
+margin-left:8% ;
+width: 40%; 
+}
+}
+@media screen and (max-width:414px){
+   
+    header nav{
+
+        line-height: 7px;
+        float: right;
+        height: 20%;
+    }
+    
+   
+    nav a{
+        display: inline-block;
+        text-decoration: none;
+        padding:   20.3%  1px;
+        color: white;
+        line-height: normal;
+    }
+   
+    .header img{
+        width: 27%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    header{
+        margin-bottom: 0%;
+        height: 100px;
+
+    }
+    .header{
+        height: 90px;
+    }
+}
+@media screen and (max-width:1024px) and (min-width:414px){
+
+    .card img{
+        width: 100%; 
+        height:80%;
+        object-fit:cover;
+    }
+    .card {
+        height: 250px;
+        
+    }
+  
+.col{
+height: 8px;
+display: inline-block; 
+margin-right:-7%;
+margin-left:14% ;
+width: 36%; 
+}
+h1, h2, #fondo1 h2,  .encontrar h4, .asesoria h4, .compra h4, #alquiler, #venta, #imagennosotros h2, .mostrar h1{
+    font-size: 20px;
+}
+p, #fondo1 p, .encontrar p, .asesoria p, .compra p, footer p, nav a, .card p, #historia p, .mostrar p{
+    font-size: 15px;
+}
+.social ul li a{
+    font-size: 15px;
+}
+#contacto h1{
+    margin-top: -30%;
+}
+}

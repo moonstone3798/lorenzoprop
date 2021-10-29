@@ -1,0 +1,1 @@
+<img src="../imagenes/lorenzoprop1.jpg" alt="" style="width:128px; ">
