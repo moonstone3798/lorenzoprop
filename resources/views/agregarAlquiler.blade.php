@@ -20,7 +20,7 @@
 
         <div class="agregar">
 
-            <form action="/agregarAlquiler" method="post">
+            <form action="/agregarAlquiler" method="post" enctype="multipart/form-data">
             @csrf
                 <div class="form-group">
                     <label for="dirección">Ingrese la Dirección </label>

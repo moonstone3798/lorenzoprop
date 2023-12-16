@@ -18,7 +18,7 @@
         @endif
 <div class="agregar">
 
-            <form action="/agregarVenta" method="post">
+            <form action="/agregarVenta" method="post" enctype="multipart/form-data">
             @csrf
                 <div class="form-group">
                     <label for="dirección">Ingrese la Dirección </label>

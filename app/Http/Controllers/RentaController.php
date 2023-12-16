@@ -69,7 +69,7 @@ return view('adminAlquileres',
             //renombrar archivo
                 //time() . extensión-de-archivo
             $ext = $request->file('imagen')->extension();
-            $imagen = time().'.'.$ext;
+            $imagen = time().'P.'.$ext;
             //subir
             $request->file('imagen')
                     ->move( public_path('rentas/'), $imagen );
@@ -93,8 +93,8 @@ return view('adminAlquileres',
         if( $request->file('imagen2') ){
             //renombrar archivo
                 //time() . extensión-de-archivo
-            $ext = $request->file('imagen2')->extension();
-            $imagen2 = time().'.'.$ext;
+            $ext2 = $request->file('imagen2')->extension();
+            $imagen2 = time().'S.'.$ext2;
             //subir
             $request->file('imagen2')
                     ->move( public_path('rentas/'), $imagen2 );
@@ -113,15 +113,15 @@ return view('adminAlquileres',
 
         //si no enviaron archivo | método update()
         if( $request->has('ImagenAnterior3') ){
-            $imagen2 = $request->ImagenAnterior3;
+            $imagen3 = $request->ImagenAnterior3;
         }
 
         // si enviaron imagen
         if( $request->file('imagen3') ){
             //renombrar archivo
                 //time() . extensión-de-archivo
-            $ext = $request->file('imagen3')->extension();
-            $imagen3 = time().'.'.$ext;
+            $ext3 = $request->file('imagen3')->extension();
+            $imagen3 = time().'T.'.$ext3;
             //subir
             $request->file('imagen3')
                     ->move( public_path('rentas/'), $imagen3 );
@@ -129,6 +129,8 @@ return view('adminAlquileres',
 
         return $imagen3;
     }
+
+
     private function subirImagen4(Request $request)
     {
         // si no enviaron archivo | método store()
@@ -143,8 +145,8 @@ return view('adminAlquileres',
         if( $request->file('imagen4') ){
             //renombrar archivo
                 //time() . extensión-de-archivo
-            $ext = $request->file('imagen4')->extension();
-            $imagen4 = time().'.'.$ext;
+            $ext4 = $request->file('imagen4')->extension();
+            $imagen4 = time().'C.'.$ext4;
             //subir
             $request->file('imagen4')
                     ->move( public_path('rentas/'), $imagen4 );
@@ -152,6 +154,8 @@ return view('adminAlquileres',
 
         return $imagen4;
     }
+
+
     private function subirImagen5(Request $request)
     {
         // si no enviaron archivo | método store()
@@ -166,8 +170,8 @@ return view('adminAlquileres',
         if( $request->file('imagen5') ){
             //renombrar archivo
                 //time() . extensión-de-archivo
-            $ext = $request->file('imagen5')->extension();
-            $imagen5 = time().'.'.$ext;
+            $ext5 = $request->file('imagen5')->extension();
+            $imagen5 = time().'Q.'.$ext5;
             //subir
             $request->file('imagen5')
                     ->move( public_path('rentas/'), $imagen5 );
@@ -240,7 +244,7 @@ return view('adminAlquileres',
      $Renta->imagen5 = $imagen5;
      $Renta->save();
      //redirección + mensaje ok
-     return redirect('/adminRentas')
+     return redirect('/adminAlquileres')
          ->with('mensaje', 'La propiedad nro: '. $id. ' fue agregada correctamente');
 
     }
